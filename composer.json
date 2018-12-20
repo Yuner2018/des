@@ -1,0 +1,19 @@
+{
+    "name": "yuner/des",
+    "description": "this is a des",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yuner",
+            "email": "357365507@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yuner\\Des\\":"src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
