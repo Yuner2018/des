@@ -3,7 +3,6 @@
 namespace Yuner\Des;
 
 use Illuminate\Support\ServiceProvider;
-use Yuner\Aes\Des;
 
 class DesServiceProvider extends ServiceProvider
 {
