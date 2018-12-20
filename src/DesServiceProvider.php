@@ -26,8 +26,6 @@ class DesServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('des',function(){
-            return new Des();
-        });
+        $this->mergeConfigFrom(__DIR__ . '/../config/des.php', 'des');
     }
 }
