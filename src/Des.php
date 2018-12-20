@@ -68,10 +68,10 @@ class Des
      */
     public function __construct($output = 'base64', $options = OPENSSL_RAW_DATA | OPENSSL_NO_PADDING)
     {
-        $this->key = config('API.aes.key');
-        $this->method = config('API.aes.cipher');
+        $this->key = config('des.key');
+        $this->method = config('des.cipher');
         $this->output = $output;
-        $this->iv = config('API.aes.iv');
+        $this->iv = config('des.iv');
         $this->options = $options;
     }
 
